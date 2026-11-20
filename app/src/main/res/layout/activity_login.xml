@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F4F7FB" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CAMPUS / STUDENT PORTAL" android:textColor="#3064B1" android:textSize="12sp" android:textStyle="bold" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Welcome back" android:textColor="#142742" android:textSize="32sp" android:textStyle="bold" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="Sign in to view your student information." android:textColor="#708095" android:textSize="15sp" />
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:background="#FFFFFF" android:orientation="vertical" android:padding="20dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="USERNAME" android:textColor="#708095" android:textSize="11sp" android:textStyle="bold" />
+<EditText android:id="@+id/username_input" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="8dp" android:background="#F7F9FC" android:hint="Enter your username" android:inputType="text" android:paddingStart="14dp" android:paddingEnd="14dp" android:singleLine="true" android:textSize="15sp" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="PASSWORD" android:textColor="#708095" android:textSize="11sp" android:textStyle="bold" />
+<EditText android:id="@+id/password_input" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="8dp" android:background="#F7F9FC" android:hint="Enter your password" android:inputType="textPassword" android:paddingStart="14dp" android:paddingEnd="14dp" android:singleLine="true" android:textSize="15sp" />
+<Button android:id="@+id/login_button" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="24dp" android:backgroundTint="#3064B1" android:text="Sign in" android:textAllCaps="false" android:textColor="#FFFFFF" android:textSize="16sp" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:gravity="center" android:text="Demo access: any username and password will work." android:textColor="#708095" android:textSize="13sp" />
+</LinearLayout>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:gravity="center" android:text="STUDENT INFORMATION SYSTEM" android:textColor="#708095" android:textSize="11sp" android:textStyle="bold" />
+</LinearLayout>
+</ScrollView>
